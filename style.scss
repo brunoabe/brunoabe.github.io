@@ -246,6 +246,11 @@ nav {
   border-bottom: 1px solid $lightGray;
 }
 
+.post > .entry > p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .posts > .post:last-child {
   padding-bottom: 1em;
   border-bottom: none;
@@ -259,8 +264,6 @@ nav {
     color: $gray;
     font-size: 22px;
     font-style: italic;
-    text-align: justify;
-    text-justify: inter-word;
   }
 
   .comments {
