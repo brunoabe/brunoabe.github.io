@@ -66,6 +66,8 @@ h4 {
 
 p {
   margin: 15px 0;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 a {
@@ -244,11 +246,6 @@ nav {
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
-}
-
-.post > .entry > p {
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .posts > .post:last-child {
